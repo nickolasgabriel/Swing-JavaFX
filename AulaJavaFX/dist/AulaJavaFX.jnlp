@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AulaJavaFX.jnlp">
+  <information>
+    <title>AulaJavaFX</title>
+    <vendor>W10</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AulaJavaFX.jar" size="2679" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="aulajavafx.AulaJavaFX"  name="AulaJavaFX" />
+  <update check="always"/>
+</jnlp>
